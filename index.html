@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="startGame(turnCount, answerArray)">
+	<div id="exit"><button id="exitButton" onclick="exitGame(word)">Выход</button></div>
+	<h1>Виселица</h1>
+	<div id="displayStatus"></div>
+	<div id="interactWithPlayer">
+		<div>
+			<div id='showAlreadyUsedLetters'></div>
+		</div>
+		<input id="guessOfPlayer" type="text" maxlength="1"><button id="confirmActions" onclick="confirmActions(word, answerArray)">Далее</button><br>
+		<input type="text" placeholder="Напишите слово если знаете" id="guessedWord"><button id="confirmWord" onclick="confirmWord(word, answerArray)">Далее</button>
+		
+	</div>
+	<div>
+		<button id="restartGame" onClick="window.location.reload()">Играть снова</button>
+	</div>
+	<div id="line-1"></div>
+	<div id="line-2"></div>
+	<div id="line-3"></div>
+	<div id="line-4"></div>
+	<div id="line-5"></div>
+	<div id="line-6"></div>
+	<div id="line-7"></div>
+	<div id="line-8"></div>
+	<div id="line-9"></div>
+	<img id="tubaret" src="Tubaretka.jpg">
+	
+</body>
+
+</body>
+</html>

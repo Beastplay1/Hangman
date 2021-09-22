@@ -1,0 +1,226 @@
+body{
+   background-image: url(background.jpg);
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
+}
+
+
+div {
+    text-align: center;
+}
+div#showAlreadyUsedLetters {
+    margin-top: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+div#displayStatus {
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+div#exit {
+    text-align: right;
+}
+
+
+input {
+    outline: none;
+    border-width: 1px;
+    margin: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+input:focus {
+    margin: 15px;
+    text-align: center;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.alph_button {
+    font-size: 20px;
+    margin: 20px;
+    background-color: hsl(220, 100%, 50%);
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    font-family: monospace;
+}
+
+button#confirmActions {
+    font-size: 25px;
+    transition: 0.7s;
+    background-color: hsl(220, 100%, 50%);
+}
+button#confirmActions:hover {
+    font-size: 25px;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: hsl(220, 100%, 50%);
+    box-shadow: 0 0 15px 0 hsl(220, 100%, 50%);
+}
+
+button#confirmWord {
+    font-size: 25px;
+    transition: 0.7s;
+    background-color: hsl(220, 100%, 50%);
+}
+button#confirmWord:hover {
+    font-size: 25px;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: hsl(220, 100%, 50%);
+    box-shadow: 0 0 15px 0 hsl(220, 100%, 50%);
+}
+
+button#exitButton {
+    font-size: 20px;
+    transition: 0.7s;
+    background-color: hsl(0, 100%, 50%);
+}
+button#exitButton:hover {
+    font-size: 20px;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: hsl(0, 100%, 50%);
+    box-shadow: 0 0 15px 0 hsl(0, 100%, 50%);
+}
+
+button#restartGame {
+    text-align: center;
+    margin: 15px;
+    visibility: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    transition: 0.7s;
+    background-color: hsl(220, 100%, 50%);
+}
+button#restartGame:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    background-color: hsl(220, 100%, 50%);
+    box-shadow: 0 0 15px 0 hsl(220, 100%, 50%);
+}
+
+#line-1{
+    border-left: 5px solid black;
+    left: 100px;
+    height: 250px;
+    position: relative;
+    display: none;
+}
+
+#line-2{
+    border-top: 5px solid black;
+    bottom: 250px;
+    left: 100px;
+    width: 135px;
+    position: relative;
+    display: none;
+}
+
+#line-3{
+    border-left: 5px solid black;
+    left: 230px;
+    bottom: 250px;
+    height: 50px;
+    position: relative;
+    display: none;
+}
+
+#line-4{
+    border: 5px solid black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 210px;    
+    bottom: 255px;
+    display: none;
+
+}
+
+#line-5{
+    border-left: 5px solid black;
+    position: relative;
+    height: 60px;
+    left: 230px;
+    bottom: 255px;
+    display: none;
+
+}
+
+#line-6{
+    border-top: 5px solid black;
+    position: relative;
+    width: 40px;
+    left: 195px;
+    bottom: 295px;
+    transform: rotate(-45deg);
+    display: none;
+    
+}
+
+#line-7{
+    border-top: 5px solid black;
+    position: relative;
+    width: 40px;
+    left: 230px;
+    bottom: 300px;
+    transform: rotate(-135deg);
+    display: none;
+
+}
+
+#line-8{
+    border-top: 5px solid black;
+    position: relative;
+    width: 40px;
+    left: 202px;
+    bottom: 255px;
+    transform: rotate(-60deg);
+    display: none;
+
+}
+
+#line-9{
+    border-top: 5px solid black;
+    position: relative;
+    width: 40px;
+    left: 223px;
+    bottom: 260px;
+    transform: rotate(-120deg);
+    display: none;
+
+}
+
+#tubaret{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 180px;
+    bottom: 230px;
+    display: none;
+}
